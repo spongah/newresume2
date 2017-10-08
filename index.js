@@ -13,8 +13,8 @@ app.get('/', function(request, response) {
   response.render('pages/junior_developer');
 });
 
-app.get('/junior_developer', function(request, response) {
-  response.render('pages/junior_developer');
+app.get('/data_analyst', function(request, response) {
+  response.render('pages/data_analyst');
 });
 
 app.listen(app.get('port'), function() {
